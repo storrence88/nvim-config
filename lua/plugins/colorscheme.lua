@@ -1,18 +1,42 @@
+-- return {
+--   -- Add the Night Owl plugin
+--   { "oxfist/night-owl.nvim" },
+--
+--   -- Tell LazyVim to use it as the colorscheme
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "night-owl",
+--     },
+--   },
+-- }
 return {
-  -- Add the TokyoNight colorscheme with the desired style
   {
-    "folke/tokyonight.nvim",
-    opts = { style = "night" },
+    "ellisonleao/gruvbox.nvim",
   },
-
-  -- Configure LazyVim to use TokyoNight
+  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "gruvbox",
     },
   },
 }
+-- return {
+--   -- Add the TokyoNight colorscheme with the desired style
+--   {
+--     "folke/tokyonight.nvim",
+--     opts = { style = "night" },
+--   },
+--
+--   -- Configure LazyVim to use TokyoNight
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "tokyonight",
+--     },
+--   },
+-- }
 
 -- return {
 --   {
